@@ -25,7 +25,8 @@
 				"ms-python.vscode-pylance"
 			]
 		}
-	}
+	},
+    "postCreateCommand": "python -m pip install -r workshops/2023/dh_tagung_berlin/requirements.txt"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -34,7 +35,6 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "python --version",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
